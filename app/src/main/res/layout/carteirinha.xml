@@ -80,7 +80,7 @@
         android:id="@+id/textView8"
         android:layout_width="150dp"
         android:layout_height="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="18dp"
         android:text="Data de Nascimento "
         android:textColor="#880E4F"
         android:textSize="16dp"
@@ -89,7 +89,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.79"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/divider2"
+        app:layout_constraintTop_toBottomOf="@+id/divider2"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
@@ -126,6 +126,7 @@
         android:layout_width="80dp"
         android:layout_height="22dp"
         android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="120dp"
         android:text="Gradunada "
         android:textAlignment="viewStart"
